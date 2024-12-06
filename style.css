@@ -1,0 +1,143 @@
+/* CSS COMMON START */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "PT Sans", sans-serif;
+    --primaryColor: #fc0;
+    --secondaryColor: #353535;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    max-width: 1250px;
+    margin: auto;
+}
+body{
+    font-family: var(--font-family)
+}
+.btn{
+    border-radius: 20px;
+    padding: 17px 41px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+    border: none;
+}
+.btn.btn-primary{
+    color: #fff;
+    background-color: var(--primaryColor);
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+  }
+.btn.btn-outline{
+    border: 1px solid #000;
+    padding: 16px 18px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    color: var(--secondaryColor);
+}
+.btn span{
+    margin-left: 11px;
+  }
+
+/* CSS COMMON END */
+
+/* NAVBAR STARTS */
+#navcontent ul li{
+    margin: 18px 22px 5px;
+}
+#navcontent ul li a{
+    font-weight: 500;
+font-size: 15px;
+line-height: 200%;
+color: var(--secondaryColor);
+
+}
+#navcontent ul li a.active,#navcontent ul li a:hover{
+    border-bottom: 1px solid #353535;
+}
+nav .navbar-toggler{
+    border: none;
+}
+/* NAVBAR ENDS */
+/* BANNER STARTS */
+#banner{
+    margin: 60px 0 144px;
+}
+#banner .container .row{
+}
+#banner .container .row .bannertext{
+    position: relative;
+    margin-top: 20px;
+}
+#banner .container .row .bannertext h4{
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--secondaryColor);
+}
+#banner .container .row .bannertext h1{
+    margin: 15px 0 25px;
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 64px;
+    color: #353535;
+}
+#banner .container .row .bannertext p{
+    margin-bottom: 43px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    color: var(--secondaryColor);
+}
+#banner .container .row .bannertext a{
+    margin-right: 38px;
+}
+#banner .container .row .socialmedia{
+    margin-top: 65px;
+}
+#banner .container .row .socialmedia span{
+font-weight: 500;
+font-size: 22px;
+line-height: 180%;
+color: #353535;
+margin-right: 24px;
+
+}
+#banner .container .row .socialmedia .socialcard a{
+  width: 40px;
+  height: 40px;
+  background-color: #f4f3f3;
+  text-align: center;
+  color: #000;
+  display: inline-block;
+  border-radius: 100%;
+  line-height: 40px;
+  margin: 0 8px;
+
+}
+#banner .container .row .bannermouse{
+    position: absolute;
+    inset: 100% 92%;
+}
+
+/* BANNER ENDS */

@@ -1,0 +1,129 @@
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "PT Sans", sans-serif;
+    --primaryColor: #fc0;
+    --secondaryColor: #353535;
+  }
+
+
+
+/* NAVBAR RESPONSIVE STARTS */
+@media (min-width: 992px) {
+    nav.navbar.shadow{
+        box-shadow: none !important; 
+    }
+}
+/* NAVBAR RESPONSIVE ENDS */
+
+
+
+/* BANNER RESPONSIVE STARTS */
+@media (max-width: 991px) {
+    .btn{
+        border-radius: 10px;
+        padding: 8px 20px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 180%;
+        border: none;
+    }
+    .btn span{
+        margin: 0;
+      }
+    .btn.btn-primary{
+        background-color: var(--primaryColor);
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 180%;
+        color: #fff;
+      }
+    .btn.btn-outline{
+        border: 0.70px solid #353535;
+        padding: 8px 7px;
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 180%;
+        color: var(--secondaryColor);
+    }
+    #banner{
+        margin-top: 37px;
+    }
+    #banner .container .row .bannertext h4{
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 15px;
+        color: #353535;
+    }
+    #banner .container .row .bannertext h1{
+        font-family: var(--second-family);
+        font-weight: 700;
+        font-size: 34px;
+        color: #353535;
+        margin: 8px 0 14px;
+    }
+    #banner .container .row .bannertext p{
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 190%;
+        color: #353535;
+        margin-bottom: 22px;
+    }
+    #banner .container .row .bannertext a{
+        border-radius: 10px;
+        width: 100px;
+        height: 35px;
+        background: #fc0;
+        margin-right: 12px;
+    }
+    #banner .container .row .socialmedia{
+        margin: 40px 0;
+    }
+
+    #banner .container .row .socialmedia span{
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 180%;
+        color: #353535;
+    }
+    #banner .container .row .socialmedia .socialcard a{
+        width: 20px;
+        height: 20px;
+        background-color: #f4f3f3;
+        text-align: center;
+        color: #000;
+        display: inline-block;
+        border-radius: 100%;
+        line-height: 20px;
+        margin: 0 6px;
+      
+      }
+      #banner .container .row .bannermouse{
+        display: none;
+    }
+/* BANNER RESPONSIVE ENDS */
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
